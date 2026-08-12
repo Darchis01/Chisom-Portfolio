@@ -53,7 +53,7 @@ export default function App() {
               </p>
               <p style={{ marginTop: 20, maxWidth: 480 }}>{profile.summary}</p>
               <div style={{ display: 'flex', gap: 12, marginTop: 28, flexWrap: 'wrap' }}>
-                <a className="btn btn-primary" href={profile.resumeFile} download>↓ download résumé</a>
+                <a className="btn btn-primary" href={profile.resumeFile} download="Chisom_Steve-Oko_Resume.pdf">↓ download résumé</a>
                 <a className="btn" href={profile.github} target="_blank" rel="noreferrer">github</a>
                 <a className="btn" href={profile.linkedin} target="_blank" rel="noreferrer">linkedin</a>
               </div>
