@@ -105,5 +105,5 @@ export const certifications = [
 export const terminalLines = [
   { cmd: 'whoami', out: profile.name },
   { cmd: 'cat role.txt', out: profile.title },
-  { cmd: 'cat status.txt', out: 'Final-year CS student · open to full-stack / cloud roles' },
+  { cmd: 'cat status.txt', out: 'CS graduate · open to full-stack / cloud roles' },
 ]
