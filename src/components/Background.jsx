@@ -63,12 +63,16 @@ export default function Background({ theme }) {
         }
       }
 
+      const dotAlpha = theme === 'light' ? 0.85 : 0.6
+      const dotRadius = theme === 'light' ? 2 : 1.6
       for (const n of nodes) {
-        ctx.fillStyle = `rgba(${accent}, 0.6)`
+        ctx.fillStyle = `rgba(${accent}, ${dotAlpha})`
         ctx.beginPath()
-        ctx.arc(n.x, n.y, 1.6, 0, Math.PI * 2)
+        ctx.arc(n.x, n.y, dotRadius, 0, Math.PI * 2)
         ctx.fill()
       }
+
+//Save all three, run npm run dev to eyeball it, then git add ., git commit -m "graduated status + brighter light-mode dots", git push.
 
       raf = requestAnimationFrame(draw)
     }

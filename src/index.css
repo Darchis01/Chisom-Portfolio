@@ -156,7 +156,7 @@ p { line-height: 1.7; color: var(--text-dim); }
   opacity: 0.5;
 }
 
-[data-theme='light'] .bg-canvas { opacity: 0.25; }
+[data-theme='light'] .bg-canvas { opacity: 0.5; }
 
 .nav {
   position: sticky;
