@@ -122,7 +122,7 @@ export default function App() {
             <div className="card" style={{ marginTop: 24 }}>
               <p className="eyebrow" style={{ marginBottom: 8 }}>education</p>
               <h3 style={{ fontSize: '1rem' }}>{education.school}</h3>
-              <p style={{ margin: '6px 0 0' }}>{education.degree} · {education.specialization}</p>
+              <p style={{ margin: '6px 0 0' }}>{education.degree}</p>
             </div>
           </div>
         </section>

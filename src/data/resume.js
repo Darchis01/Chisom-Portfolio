@@ -7,7 +7,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/chisom-darlynton-1268a4249',
   resumeFile: '/resume.pdf', // drop your exported PDF resume into /public as resume.pdf
   summary:
-    "A Computer Science graduate from Gregory University Uturu, specializing in cloud computing, with hands-on full-stack experience across Python, JavaScript, Django, Flask, React, and Node.js. Built AERO, a predictive network failover system for hybrid cloud environments using SDN (Mininet/Ryu) and a machine learning classifier. Interned as a full-stack developer with cloud deployment exposure, and comfortable working from infrastructure to UI. Currently expanding a portfolio of self-directed cloud and full-stack projects.",
+    "A Computer Science graduate from Gregory University Uturu, with a self-directed focus on cloud computing, with hands-on full-stack experience across Python, JavaScript, Django, Flask, React, and Node.js. Built AERO, a predictive network failover system for hybrid cloud environments using SDN (Mininet/Ryu) and a machine learning classifier. Interned as a full-stack developer with cloud deployment exposure, and comfortable working from infrastructure to UI. Currently expanding a portfolio of self-directed cloud and full-stack projects.",
 }
 
 export const skills = [
@@ -25,7 +25,7 @@ export const skills = [
   },
   {
     category: 'Tools & Platforms',
-    items: ['VS Code', 'GitHub', 'Vercel', 'Tableau', 'Canva'],
+    items: ['VS Code', 'GitHub', 'Vercel', 'Render', 'Tableau', 'Canva'],
   },
   {
     category: 'Design',
@@ -42,6 +42,7 @@ export const experience = [
     points: [
       'Built and maintained full-stack web applications, working across frontend and backend development.',
       'Gained hands-on exposure to cloud computing concepts, deployment workflows, and infrastructure practices.',
+      'Sharpened existing graphics design skills through real client and project work.',
     ],
   },
   {
@@ -59,7 +60,6 @@ export const experience = [
 export const education = {
   school: 'Gregory University Uturu (GUU), Abia State, Nigeria',
   degree: 'B.Sc. Computer Science (2022 – 2026)',
-  specialization: 'Cloud Computing',
 }
 
 // Replace / extend these as you build and host more projects on GitHub.
