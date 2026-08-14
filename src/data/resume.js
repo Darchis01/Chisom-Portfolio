@@ -74,11 +74,12 @@ export const projects = [
     featured: true,
   },
   {
-    title: 'Project slot — coming soon',
-    description: 'Reserved for the next self-directed build. Swap this card out once the repo is live.',
-    stack: ['TBD'],
-    github: '',
-    live: '',
+    title: 'Job Application Tracker',
+    description:
+      'A kanban-style board for tracking job applications through Applied, Interviewing, Offer, and Rejected stages. Full CRUD via a REST API, with Django-powered admin for direct data management.',
+    stack: ['Django', 'Django REST Framework', 'PostgreSQL', 'React'],
+    github: 'https://github.com/Darchis01/job-tracker-api',
+    live: 'https://job-tracker-frontend-997n.vercel.app',
     featured: false,
   },
   {
