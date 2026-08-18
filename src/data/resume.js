@@ -69,7 +69,7 @@ export const projects = [
     description:
       'A predictive network failover system for hybrid cloud environments. Combines a Random Forest classifier with Software-Defined Networking to anticipate and route around link failures in real time, with a live monitoring dashboard.',
     stack: ['Flask', 'Mininet/Ryu SDN', 'Random Forest', 'vis.js', 'Chart.js'],
-    github: 'https://github.com/Darchis01',
+    github: 'https://github.com/Darchis01/aero',
     live: '',
     featured: true,
   },
