@@ -25,7 +25,7 @@ export const skills = [
   },
   {
     category: 'Tools & Platforms',
-    items: ['VS Code', 'GitHub', 'Vercel', 'Render', 'Tableau', 'Canva'],
+    items: ['VS Code', 'GitHub', 'Vercel', 'Render', 'Tableau', 'Canva', 'Figma'],
   },
   {
     category: 'Design',
