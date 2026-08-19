@@ -83,11 +83,12 @@ export const projects = [
     featured: false,
   },
   {
-    title: 'Project slot — coming soon',
-    description: 'Reserved for the next self-directed build. Swap this card out once the repo is live.',
-    stack: ['TBD'],
-    github: '',
-    live: '',
+    title: 'Online Bookstore',
+    description:
+      'A full-stack Django bookstore with a REST API, customer accounts, and Flutterwave payment integration. Deployed as a serverless app on Vercel with a managed PostgreSQL backend.',
+    stack: ['Django', 'Django REST Framework', 'PostgreSQL', 'Flutterwave API', 'WhiteNoise'],
+    github: 'https://github.com/Darchis01/bookstore',
+    live: 'https://bookstore-nu-ecru.vercel.app',
     featured: false,
   },
 ]
