@@ -73,15 +73,7 @@ export const projects = [
     live: '',
     featured: true,
   },
-  {
-    title: 'Job Application Tracker',
-    description:
-      'A kanban-style board for tracking job applications through Applied, Interviewing, Offer, and Rejected stages. Full CRUD via a REST API, with Django-powered admin for direct data management.',
-    stack: ['Django', 'Django REST Framework', 'PostgreSQL', 'React'],
-    github: 'https://github.com/Darchis01/job-tracker-api',
-    live: 'https://job-tracker-frontend-997n.vercel.app',
-    featured: false,
-  },
+
   {
     title: 'DevTrack',
     description:
@@ -89,6 +81,15 @@ export const projects = [
     stack: ['React (Vite)', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL (Supabase)', 'GitHub Actions'],
     github: 'https://github.com/Darchis01/devtrack',
     live: 'https://devtrack-smoky.vercel.app',
+    featured: false,
+  },
+  {
+    title: 'Job Application Tracker',
+    description:
+      'A kanban-style board for tracking job applications through Applied, Interviewing, Offer, and Rejected stages. Full CRUD via a REST API, with Django-powered admin for direct data management.',
+    stack: ['Django', 'Django REST Framework', 'PostgreSQL', 'React'],
+    github: 'https://github.com/Darchis01/job-tracker-api',
+    live: 'https://job-tracker-frontend-997n.vercel.app',
     featured: false,
   },
 ]
