@@ -83,12 +83,12 @@ export const projects = [
     featured: false,
   },
   {
-    title: 'Online Bookstore',
+    title: 'DevTrack',
     description:
-      'A full-stack Django bookstore with a REST API, customer accounts, and Flutterwave payment integration. Deployed as a serverless app on Vercel with a managed PostgreSQL backend.',
-    stack: ['Django', 'Django REST Framework', 'PostgreSQL', 'Flutterwave API', 'WhiteNoise'],
-    github: 'https://github.com/Darchis01/bookstore',
-    live: 'https://bookstore-nu-ecru.vercel.app',
+      'A full-stack task tracker built to demonstrate end-to-end engineering — from database design to CI/CD-ready deployment. Supports full task CRUD with status workflow (To Do → In Progress → Done) and priority levels, deployed across three separate services.',
+    stack: ['React (Vite)', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL (Supabase)', 'GitHub Actions'],
+    github: 'https://github.com/Darchis01/devtrack',
+    live: 'https://devtrack-smoky.vercel.app',
     featured: false,
   },
 ]
