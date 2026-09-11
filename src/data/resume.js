@@ -21,15 +21,22 @@ export const skills = [
   },
   {
     category: 'Cloud & Systems',
-    items: ['Cloud Computing Fundamentals', 'VM-based Network Simulation (VirtualBox, Linux)', 'Software-Defined Networking (Mininet/Ryu)'],
+    items: ['Microsoft Azure', 'Cloud Computing Fundamentals', 'VM-based Network Simulation (VirtualBox, Linux)', 'Software-Defined Networking (Mininet/Ryu)'],
   },
   {
+    category: 'Databases',
+    items: ['PostgreSQL', 'MySQL', 'Supabase'],
+  },
+    {
     category: 'Tools & Platforms',
-    items: ['VS Code', 'GitHub', 'Vercel', 'Render', 'Tableau', 'Canva', 'Figma'],
+    items: ['VS Code', 'GitHub', 'Vercel', 'Render', 'Tableau', 'Canva'],
   },
   {
     category: 'Design',
     items: ['UI/UX Design', 'Graphics Design'],
+  },  {
+    category: 'Design',
+    items: ['UI/UX Design', 'Graphics Design', 'Figma', 'Adobe Illustrator', 'Photoshop', 'Behance'],
   },
 ]
 
@@ -40,19 +47,19 @@ export const experience = [
     role: 'Full-Stack Developer (Internship)',
     period: 'Jul 2025 – Dec 2025',
     points: [
-      'Built and maintained full-stack web applications, working across frontend and backend development.',
-      'Gained hands-on exposure to cloud computing concepts, deployment workflows, and infrastructure practices.',
-      'Sharpened existing graphics design skills through real client and project work.',
+      'Completed a structured full-stack development track, building features with Python, JavaScript, CSS, Django, and REST APIs.',
+      'Trained in cloud computing on Microsoft Azure, covering deployment workflows and infrastructure practices.',
+      'Completed a UI/UX design side course covering Figma, Adobe Illustrator, Photoshop, Canva, and Behance, sharpening existing graphics design skills through real project work.',
     ],
   },
   {
     company: 'Gregory University Uturu (GUU)',
     location: 'Abia State, Nigeria',
-    role: 'Data Science & Computer Hardware Technology (Internship)',
+    role: 'Networking & Data Analysis (Internship)',
     period: 'Aug 2024 – Dec 2024',
     points: [
-      'Worked on data science tasks including data analysis and reporting.',
-      'Gained practical grounding in computer hardware technology fundamentals and systems troubleshooting.',
+      'Worked on computer networking fundamentals — hardware coupling/decoupling, building network cables (including twisted-pair), routers, and setting up network connections.',
+      'Performed data analysis on large datasets (e.g. population statistics), cleaning data and producing insights and recommendations using Tableau.',
     ],
   },
 ]
