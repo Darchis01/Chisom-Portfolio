@@ -4,6 +4,7 @@ import ThemeToggle from './components/ThemeToggle'
 import Terminal from './components/Terminal'
 import {
   profile,
+  about,
   skills,
   experience,
   education,
@@ -33,6 +34,7 @@ export default function App() {
         <div className="nav-inner">
           <span className="mono" style={{ fontWeight: 700 }}>~/steve-oko</span>
           <ul className="nav-links">
+            <li><a href="#about">about</a></li>
             <li><a href="#work">work</a></li>
             <li><a href="#skills">skills</a></li>
             <li><a href="#experience">experience</a></li>
@@ -59,6 +61,28 @@ export default function App() {
               </div>
             </div>
             <Terminal />
+          </div>
+        </section>
+
+        <section className="section" id="about">
+          <div className="wrap grid-2" style={{ alignItems: 'center', gap: 48 }}>
+            <img
+              src={about.photo}
+              alt={profile.name}
+              style={{
+                width: '100%',
+                maxWidth: 280,
+                aspectRatio: '1 / 1',
+                objectFit: 'cover',
+                borderRadius: '50%',
+                border: '2px solid var(--border)',
+              }}
+            />
+            <div>
+              <p className="eyebrow">about me</p>
+              <h2>Hi, I'm {profile.name.split(' ')[0]}.</h2>
+              <p>{about.bio}</p>
+            </div>
           </div>
         </section>
 

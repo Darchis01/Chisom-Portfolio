@@ -10,31 +10,34 @@ export const profile = {
     "A Computer Science graduate from Gregory University Uturu, with a self-directed focus on cloud computing, with hands-on full-stack experience across Python, JavaScript, Django, Flask, React, and Node.js. Built AERO, a predictive network failover system for hybrid cloud environments using SDN (Mininet/Ryu) and a machine learning classifier. Interned as a full-stack developer with cloud deployment exposure, and comfortable working from infrastructure to UI. Currently expanding a portfolio of self-directed cloud and full-stack projects.",
 }
 
+export const about = {
+  photo: '/profile.jpg', // drop your photo into /public as profile.jpg
+  bio:
+    "I'm a Computer Science graduate from Gregory University Uturu with a self-directed focus on cloud computing and full-stack development. I like building things end-to-end — from cloud infrastructure to the interface people actually touch — and I learn best by shipping real, working projects rather than tutorials alone. Outside of code, I run live production for my church's media unit most Sundays: handling the livestream, screen displays, and making sure the broadcast goes out without a hitch — a different kind of real-time systems work.",
+}
+
 export const skills = [
   {
     category: 'Languages',
-    items: ['Python', 'JavaScript'],
+    items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'PHP'],
   },
   {
     category: 'Frameworks & Libraries',
-    items: ['Django', 'Flask', 'React', 'Node.js'],
+    items: ['Django', 'Flask', 'React', 'Node.js', 'Vue.js', 'Spring'],
   },
   {
     category: 'Cloud & Systems',
-    items: ['Microsoft Azure', 'Cloud Computing Fundamentals', 'VM-based Network Simulation (VirtualBox, Linux)', 'Software-Defined Networking (Mininet/Ryu)'],
+    items: ['Microsoft Azure (AZ-900, AZ-104, AZ-400)', 'AWS Cloud Practitioner Fundamentals', 'Docker', 'Kubernetes', 'VM-based Network Simulation (VirtualBox, Linux)', 'Software-Defined Networking (Mininet/Ryu)'],
   },
   {
     category: 'Databases',
     items: ['PostgreSQL', 'MySQL', 'Supabase'],
   },
-    {
+  {
     category: 'Tools & Platforms',
     items: ['VS Code', 'GitHub', 'Vercel', 'Render', 'Tableau', 'Canva'],
   },
   {
-    category: 'Design',
-    items: ['UI/UX Design', 'Graphics Design'],
-  },  {
     category: 'Design',
     items: ['UI/UX Design', 'Graphics Design', 'Figma', 'Adobe Illustrator', 'Photoshop', 'Behance'],
   },
@@ -48,7 +51,7 @@ export const experience = [
     period: 'Jul 2025 – Dec 2025',
     points: [
       'Completed a structured full-stack development track, building features with Python, JavaScript, CSS, Django, and REST APIs.',
-      'Trained in cloud computing on Microsoft Azure, covering deployment workflows and infrastructure practices.',
+      'Trained in cloud computing on Microsoft Azure (AZ-900, AZ-104, AZ-400 track), covering deployment workflows and infrastructure practices.',
       'Completed a UI/UX design side course covering Figma, Adobe Illustrator, Photoshop, Canva, and Behance, sharpening existing graphics design skills through real project work.',
     ],
   },
@@ -74,13 +77,21 @@ export const projects = [
   {
     title: 'AERO — Autonomous Edge-Resilience Orchestrator',
     description:
-      'A predictive network failover system for hybrid cloud environments. Combines a Random Forest classifier with Software-Defined Networking to anticipate and route around link failures in real time, with a live monitoring dashboard.',
+      'A predictive network failover system for hybrid cloud environments. Combines a Random Forest classifier with Software-Defined Networking (Mininet + Ryu) to anticipate and route around link failures in real time, with a live monitoring dashboard. Full-scale simulation requires a Linux environment to run — see AERO-Lite for a live, serverless demo.',
     stack: ['Flask', 'Mininet/Ryu SDN', 'Random Forest', 'vis.js', 'Chart.js'],
     github: 'https://github.com/Darchis01/aero',
     live: '',
     featured: true,
   },
-
+  {
+    title: 'AERO-Lite',
+    description:
+      'A serverless, deployable demo of AERO. Swaps the Linux-dependent Mininet/Ryu simulation for a synthetic traffic generator, so the same prediction logic runs anywhere. The model itself isn\u2019t faked: it\u2019s a Random Forest retrained on a larger, more realistic dataset, exported as a pure-Python tree-walker, and verified to produce identical predictions to the original scikit-learn model — without needing scikit-learn at runtime.',
+    stack: ['Vercel Serverless Functions', 'Python (stdlib only)', 'Random Forest'],
+    github: 'https://github.com/Darchis01/aero-lite',
+    live: 'https://aero-lite.vercel.app/',
+    featured: false,
+  },
   {
     title: 'DevTrack',
     description:
@@ -99,17 +110,25 @@ export const projects = [
     live: 'https://job-tracker-frontend-997n.vercel.app',
     featured: false,
   },
+  {
+    title: 'Bookstore',
+    description:
+      'A Django bookstore application with a fully documented relational database design — ER diagram, data-flow documentation, and a complete SQL schema committed alongside the code.',
+    stack: ['Django', 'SQL', 'PostgreSQL'],
+    github: 'https://github.com/Darchis01/bookstore',
+    live: '',
+    featured: false,
+  },
 ]
 
 export const certifications = [
   'Cisco Networking Academy — Get Connected (2021)',
+  'Cisco Networking Academy — IoT Fundamentals (2022)',
   'Jobberman / Mastercard Foundation — Building Careers for Workplace Success Training (2026)',
-  'La Plage Meta Verse — Artificial Intelligence for International HR Managers (Level 1)',
-  'La Plage Meta Verse — Artificial Intelligence for Public Service Officials (Level 1)',
-  'La Plage Meta Verse — Artificial Intelligence for Healthcare Practitioners (Level 1)',
-  'La Plage Meta Verse — International Customer Service for Managers (Level 1)',
-  'La Plage Meta Verse — Emotional Intelligence (Level 1)',
-  'La Plage Meta Verse — Climate Change and Renewable Energy (Level 1)',
+  'Microsoft Azure — AZ-900, AZ-104, AZ-400 course track (New Horizon Solutions)',
+  'AWS Training & Certification — Cloud Practitioner Essentials (2026)',
+  'AWS Training & Certification — Compute Services Overview (2026)',
+  'AWS Training & Certification — Amazon Connect Instance Fundamentals (2026)',
 ]
 
 export const terminalLines = [
